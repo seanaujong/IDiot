@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body,
+            html {
+                height: 100%;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: beige;
+            }
+
+            .image {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+                height: 35%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+
+            .hero-text {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+
+            .center {
+                margin: auto;
+                width: 60%;
+                border: 4px solid #2B60DE;
+                padding: 10px;
+            }
+
+            .company-photo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 10%;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="image">
+            <div class="hero-text">
+                <h1 style="font-size:50px">Medical IoT Device Discovery</h1>
+            </div>
+        </div>
+<h1>Devices by Manufacturer</h1>
+<div class="company-photo"><img src="./images/exegin.png" alt="picture of the company"></div>
+<div class="center">
+    <h2> Exegin Technologies Limited </h2>
+    <h3>Potential IoT devices: Q59 Dual Band, Q51 802.15.4 PANanalyzer </h3>
+    <a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Exegin+Technologies+Limitediot+zigbee">CVEs</a>
+</div>
+<div class="company-photo"><img src="./images/ember.png" alt="picture of the company"></div><div class="center">
+    <h2> Ember Corporation </h2>
+    <h3>Potential IoT devices: EM351 </h3>
+    <a href="https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Ember+Corporationiot+zigbee">CVEs</a>
+</div>
+</body>
+</html>

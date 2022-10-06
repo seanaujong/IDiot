@@ -1,0 +1,5 @@
+pandas
+numpy
+mac_vendor_lookup
+requests.html
+googlesearch-python
